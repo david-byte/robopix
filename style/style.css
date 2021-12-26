@@ -13,6 +13,7 @@ body {
 }
 
 .principal{
+    padding: 2px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -35,6 +36,14 @@ body {
     font-weight: 400;
 }
 
+.frase-secundaria{
+    color: #333;
+    text-transform: uppercase;
+    font-family: Russo One, sans-serif;
+    font-size: 47px;
+    font-weight: 100;
+}
+
 @media (max-width: 768px)
 {
     .logo-inicial img{
@@ -43,6 +52,10 @@ body {
 
     .frase-inicial h1{
         font-size: 25px;
+    }
+
+    .frase-secundaria{
+        font-size: 25;
     }
 }
 
