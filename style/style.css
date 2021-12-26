@@ -48,6 +48,8 @@ body {
 {
     .logo-inicial img{
         width: 40%;
+        margin-bottom: 0;
+
     }
 
     .frase-inicial h1{
@@ -55,7 +57,7 @@ body {
     }
 
     .frase-secundaria{
-        font-size: 25;
+        font-size: 25px;
     }
 }
 
