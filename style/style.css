@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,12 +7,12 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Russo One, sans-serif;
     background-color: #fff;
     width: 100%;
 }
 
-.principal{
+.principal {
     padding: 2px;
     display: flex;
     flex-direction: column;
@@ -22,26 +22,54 @@ body {
     text-align: center;
 }
 
-.logo-inicial img{
+.logo-inicial img {
     margin-top: 3rem;
     width: 23%;
     margin-bottom: 1rem;
 }
 
-.frase-inicial h1{
+.frase-inicial h1 {
     color: #32BCAD;
     text-transform: uppercase;
-    font-family: Russo One, sans-serif;
     font-size: 40px;
     font-weight: 400;
 }
 
-.frase-secundaria{
+.frase-secundaria {
     color: #333;
     text-transform: uppercase;
-    font-family: Russo One, sans-serif;
     font-size: 47px;
     font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.frase-audio i{
+    color: #32BCAD;
+}
+
+.frase-audio span{
+
+    color: #333;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #ff4b4b;
+    font-family: Russo One, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn {
+    animation: grover 0.5s infinite;
 }
 
 @media (max-width: 768px)
@@ -58,6 +86,18 @@ body {
 
     .frase-secundaria{
         font-size: 25px;
+    }
+}
+
+
+@keyframes grover {
+    0% 
+    {
+       transform: scale3d(1,1,1);
+    }
+    50% 
+    {
+        transform: scale3d(1.05,1.05,1.05);
     }
 }
 
