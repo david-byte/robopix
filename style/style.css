@@ -9,10 +9,10 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #fff;
+    width: 100%;
 }
 
 .principal{
-    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -20,15 +20,29 @@ body {
     justify-content: center;
     text-align: center;
 }
+
 .logo-inicial img{
     margin-top: 3rem;
-    width: 22%;
+    width: 23%;
+    margin-bottom: 1rem;
 }
 
 .frase-inicial h1{
     color: #32BCAD;
     text-transform: uppercase;
     font-family: Russo One, sans-serif;
-    font-size: 47px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 400;
 }
+
+@media (max-width: 768px)
+{
+    .logo-inicial img{
+        width: 40%;
+    }
+
+    .frase-inicial h1{
+        font-size: 25px;
+    }
+}
+
