@@ -148,6 +148,49 @@ ul {
     margin-bottom: 2rem;
 }
 
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.video-segundo{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-terceiro{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-quarto{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-quinto{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
 @media (max-width: 768px)
 {
     .logo-inicial img{
