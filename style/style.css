@@ -230,13 +230,14 @@ h6 {
     align-items: flex-start;
     justify-content: center;
     text-align: center;
-    margin: 0 20rem 2rem 15rem;
+    margin: 0 0 2rem 30rem;
 }
 .btn-vermelho{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 .receber{
     background-color: #32BCAD;
@@ -252,9 +253,73 @@ h6 {
     text-align: center;
     margin-bottom: 1rem;
 }
-
+.receber-cont{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 5.5rem;
+}
 .receber-img{
     background-color: black;
+    width: 28%;
+    text-align: center;
+    margin: 0 1rem 2rem 0;  
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.receber-img img{
+    width: 20%;
+    margin-top: 1rem;
+}
+
+.receber-h4{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 26px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.receber-img p{
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.bonus-exclusivo{
+    background-color: #fff;
+    width: 100%;
+}
+
+.bonus{
+    background-color: rgb(243, 243, 243);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin: 3rem 10rem 5rem;
+    border: rgb(102, 102, 102);
+    box-shadow: 8px 8px 7px 3px rgb(102, 102, 102);
+    border-radius: 34px;
+}
+
+.bonus-h6{
+    color: #32BCAD;
+}
+
+.list-span{
+    white-space: nowrap;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 @media (max-width: 768px)
@@ -273,7 +338,6 @@ h6 {
         font-size: 25px;
     }
 }
-
 
 @keyframes grover {
     0% 
