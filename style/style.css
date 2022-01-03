@@ -69,15 +69,6 @@ h6 {
     color: #333;
     font-weight: 400;
 }
-
-.video-principal{
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 15px;
-    position: relative;
-}
-
 .btn {
     background-color: #ff4b4b;
     font-family: Russo One, sans-serif;
@@ -91,8 +82,27 @@ h6 {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+.btn2 {
+    background-color: #ff4b4b;
+    font-family: Russo One, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .btn-branco{
     display: flex;
     align-items: center;
@@ -115,8 +125,36 @@ h6 {
     margin-bottom: 1rem;
 } 
 
+.btn-verde {
+    background-color: #32BCAD;
+    font-family: Russo One, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .btn {
     animation: grover 0.5s infinite;
+    
+}
+
+.btn2 {
+    animation: grover 0.5s infinite;
+    border-radius: 11px;
+    box-shadow: 0px 0px 10px 5px rgb(188 50 50 / 47%);
+}
+
+.btn-verde{
+    animation: grover 0.5s infinite; 
 }
 
 .secundario {
@@ -126,7 +164,7 @@ h6 {
 
 .secundario-primeira-frase h6 {
     color: #fff;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 40px;
     font-weight: 400;
     text-align: center;
@@ -169,7 +207,17 @@ h6 {
     margin-top: 2rem;
 }
 
-.video-segundo{
+.video-um{
+    background-color: black;
+    width: 20%;
+    margin-top: 1rem;   
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.video-dois{
+    background-color: black;
     width: 20%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -178,7 +226,8 @@ h6 {
     margin: 10px;
 }
 
-.video-terceiro{
+.video-tres{
+    background-color: black;
     width: 20%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -187,7 +236,8 @@ h6 {
     margin: 10px;
 }
 
-.video-quarto{
+.video-quatro{
+    background-color: black;
     width: 20%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -196,7 +246,38 @@ h6 {
     margin: 10px;
 }
 
-.video-quinto{
+.video-cinco{
+    background-color: black;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-seis{
+    background-color: black;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-sete{
+    background-color: black;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.video-oito{
+    background-color: black;
     width: 20%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -222,6 +303,7 @@ h6 {
 .list{
     display: flex;
     flex-direction: row;
+    text-align: start;
     margin: 5px;
 }
 .lista-primeira{
@@ -230,14 +312,29 @@ h6 {
     align-items: flex-start;
     justify-content: center;
     text-align: center;
-    margin: 0 0 2rem 30rem;
+    margin-left: 20rem;
+}
+.lista-secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
 }
 .btn-vermelho{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+}
+
+.btn-vermelho-ilumi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .receber{
     background-color: #32BCAD;
@@ -255,18 +352,19 @@ h6 {
 }
 .receber-cont{
     width: 100%;
-    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
-    margin: 0 5.5rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
 }
 .receber-img{
     background-color: black;
     width: 28%;
     text-align: center;
-    margin: 0 1rem 2rem 0;  
+    margin: 0.5rem 0.5rem 0.5rem 1rem;  
     padding: 30px;
     border-radius: 20px;
 }
@@ -320,6 +418,173 @@ h6 {
     text-align: left;
     margin-top: 5px;
     font-size: 15px;
+}
+
+.video-pratica{
+    background-color: #32BCAD;
+}
+
+.frase-pratica{
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.video-praticando{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video-na-pratica{
+    width: 50%;
+    height: 25rem;
+    
+}
+.ultima-section{
+    background-color: #232323;
+    display: block;
+    visibility: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    background-color: #232323;
+}
+.inseguro{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.inseguro-segundo{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ffffff 0%, #757575 100%);
+    margin: 3rem 10rem 3rem 10rem;
+    border-radius: 50px;
+}
+
+.inseguro-selo{
+    color: #32BCAD;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.inseguro-selo h6{
+    margin-bottom: 1rem;
+}
+
+.inseguro-inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 26px;
+}
+
+.inseguro-perguntas{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000 0%, #0F7369 100%);
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 48px;
+    padding: 2.5rem;
+}
+
+.inseguro-frase{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ins-perguntas{
+    color: #fff;
+}
+
+.pengunta a {
+    color: #fff;
+    text-decoration: none;
+}
+.menudropdown-conteudo{
+    display: none;
+    position: absolute;
+}
+
+
+
+.tem-duvida{
+    background-color: #fff;
+    color: #32BCAD;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    position: relative;
+    background-color: #000000;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer img{
+    margin-top: 1rem;
+    width: 5%;
+    margin-bottom: 1rem;
+}
+
+.direitos{
+    font-family: Roboto,sans-serif;
+    color: #D3D3D3;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.referencia{
+    position: relative;
+    color: #282828;
+    font-family: Roboto,sans-serif;
+    padding: 2px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.referencia p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    margin: 1rem 25rem;
 }
 
 @media (max-width: 768px)
