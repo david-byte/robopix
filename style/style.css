@@ -11,23 +11,7 @@ body {
     background-color: #fff;
     width: 100%;
 }
-ul {
-    list-style: none;
-    display: flex;
-}
-li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-}
-h6 {
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 400;
-    margin-top: 2rem;
-}
+
 .principal {
     padding: 2px;
     display: flex;
@@ -69,6 +53,7 @@ h6 {
     color: #333;
     font-weight: 400;
 }
+
 .btn {
     background-color: #ff4b4b;
     font-family: Russo One, sans-serif;
@@ -109,6 +94,7 @@ h6 {
     justify-content: center;
     text-align: center;
 }
+
 .btn-branco-verde {
     background-color: #fff;
     font-family: Russo One, sans-serif;
@@ -467,7 +453,7 @@ h6 {
     background-color: transparent;
     background-image: linear-gradient(180deg, #ffffff 0%, #757575 100%);
     margin: 3rem 10rem 3rem 10rem;
-    border-radius: 50px;
+    border-radius: 2rem;
 }
 
 .inseguro-selo{
@@ -491,6 +477,7 @@ h6 {
     font-size: 26px;
 }
 
+/** QUESTIONS **/
 .inseguro-perguntas{
     background-color: transparent;
     background-image: linear-gradient(180deg, #000000 0%, #0F7369 100%);
@@ -499,24 +486,75 @@ h6 {
     padding: 2.5rem;
 }
 
-.inseguro-frase{
+.inseguro-perguntas h6 {
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
     margin-bottom: 3rem;
 }
 
-.ins-perguntas{
-    color: #fff;
+/** ACCORDIONS **/
+.accodion-container {
+    display: flex;
+}
+.accordion-item{
+    margin-bottom: 1rem;
 }
 
-.pengunta a {
-    color: #fff;
-    text-decoration: none;
-}
-.menudropdown-conteudo{
+.accordion-item input {
     display: none;
-    position: absolute;
 }
+
+.accordion-item label {
+    padding: 1rem;
+    color: #32BCAD;
+    padding: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.accordion-item label i:last-child {
+    display: none;
+}
+
+.accordion-text {
+    height: 0;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+
+.accordion-text p {
+    color: #fff;
+    font-weight: 100;
+}
+
+.accordion-item label:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.ativado .accordion-text{
+    height: 5rem;
+}
+
+
+[id^=accordion]:checked ~ label i:first-child{
+    display: none;
+}
+
+[id^=accordion]:checked ~ label i:last-child{
+    display: inline;
+
+}
+
+[id^=accordion]:checked ~ .accordion-text {
+    margin-top: 1rem;
+    height: 5rem;
+}
+
+
 
 
 
@@ -586,6 +624,10 @@ h6 {
     font-size: 15px;
     margin: 1rem 25rem;
 }
+
+
+
+
 
 @media (max-width: 768px)
 {
