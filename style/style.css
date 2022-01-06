@@ -12,10 +12,13 @@ body {
     width: 100%;
 }
 
+
 h6{
     font-size: 32px;
     margin-top: 2rem;
 }
+
+
 
 .principal {
     padding: 2px;
@@ -58,6 +61,7 @@ h6{
     color: #333;
     font-weight: 400;
 }
+
 
 .frase-dois{
 
@@ -562,7 +566,11 @@ h6{
 
 }
 
+
 [id^=accordion]:checked ~ .accordion-text{
+
+[id^=accordion]:checked ~ .accordion-text {
+
     margin-top: 1rem;
     height: 5rem;
 }
