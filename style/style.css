@@ -12,14 +12,11 @@ body {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 h6{
     font-size: 32px;
     margin-top: 2rem;
 }
 
->>>>>>> 278f552488b386903f1b18d0db932141c01bd0ac
 .principal {
     padding: 2px;
     display: flex;
@@ -62,8 +59,6 @@ h6{
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-=======
 .frase-dois{
 
     color: #333;
@@ -72,7 +67,6 @@ h6{
     margin-bottom: 1rem;
 }
 
->>>>>>> 278f552488b386903f1b18d0db932141c01bd0ac
 .btn {
     background-color: #ff4b4b;
     font-family: Russo One, sans-serif;
@@ -568,18 +562,10 @@ h6{
 
 }
 
-<<<<<<< HEAD
 [id^=accordion]:checked ~ .accordion-text {
-=======
-[id^=accordion]:checked ~ .accordion-text{
->>>>>>> 278f552488b386903f1b18d0db932141c01bd0ac
     margin-top: 1rem;
     height: 5rem;
 }
-
-
-
-
 
 .tem-duvida{
     background-color: #fff;
@@ -647,10 +633,6 @@ h6{
     font-size: 15px;
     margin: 1rem 25rem;
 }
-
-
-
-
 
 @media (max-width: 768px)
 {
