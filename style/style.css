@@ -568,9 +568,6 @@ h6{
 
 
 [id^=accordion]:checked ~ .accordion-text{
-
-[id^=accordion]:checked ~ .accordion-text {
-
     margin-top: 1rem;
     height: 5rem;
 }
