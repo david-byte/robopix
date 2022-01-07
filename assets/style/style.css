@@ -643,32 +643,140 @@ h6{
     margin: 1rem 25rem;
 }
 
-@media (max-width: 84rem)
+@media (max-width: 62em)/* > 960 */
 {
-    .logo-inicial img{
+    .frase-audio {
+        margin-bottom: 0.5rem;
+    }
+
+    .inseguro {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .inseguro-segundo {
+        margin: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .direitos {
+        display: block;
         width: 40%;
-        margin-bottom: 0;
-
     }
 
-    .frase-inicial h1{
-        font-size: 25px;
+    .referencia {
+        display: block;
+        width: 40%;
     }
 
-    .frase-secundaria{
-        font-size: 25px;
-    }
-
-    .video_principal {
-        width: 50%;
+    .referencia p {
+        display: block;
+        text-align: justify;
+        margin: 0;
+        padding-top: 1rem;
     }
 }
 
-@media (max-width: 52em){
+@media (max-width: 52em) /* > 800 */
+{
+    .secundario-primeira-frase h6 {
+        padding: 1rem;
+    }
+
+    .lista-primeira {
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    .bonus-exclusivo {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+
+    .bonus {
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
     
+    .frase-pratica h6 {
+        font-weight: 100;
+    }
+
+    [id^=accordion]:checked ~ .accordion-text {
+        margin-top: 1rem;
+        height: 8rem;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 32em){
+
+ 
+    .frase-inicial h1 {
+        font-size: 2rem;
+    }
+
+    .frase-secundaria {
+        font-size: 2rem;
+    }
+
+    .inseguro-segundo {
+        width: 100%;
+    }
+
+    .bonus-exclusivo {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+
+    .bonus {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }   
+    
+    .lista-secundaria {
+        margin-left: 0;
+        display: block;
+    }
+
+    .list-span {
+        font-size: 2vw;
+    }
+
+    .list {
+        margin: 0;
+    }
+
+    .referencia{
+        width: 80%;
+    }
 
 }
 
