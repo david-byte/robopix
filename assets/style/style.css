@@ -643,7 +643,7 @@ h6{
     margin: 1rem 25rem;
 }
 
-@media (max-width: 768px)
+@media (max-width: 84rem)
 {
     .logo-inicial img{
         width: 40%;
@@ -662,6 +662,14 @@ h6{
     .video_principal {
         width: 50%;
     }
+}
+
+@media (max-width: 52em){
+    
+}
+
+@media (max-width: 32em){
+
 }
 
 @keyframes grover {
